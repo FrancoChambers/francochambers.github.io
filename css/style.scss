@@ -51,11 +51,17 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
     }
 }
 
+.centered-text{
+    text-align: center;
+}
+
 /* navbar */
 .navbar.franco-navbar {
     background-color: $franco-brown;
     border-color: $franco-yellow;
     padding-right: $base-padding;
+    padding-top: $base-padding;
+    padding-bottom: $base-padding;
 
     .navbar-brand{
         color: $franco-yellow;
@@ -299,7 +305,18 @@ aside {
 }
 
 .site-footer {
-    margin-top: 200px;
+    background-color: $franco-brown;
+    color: $franco-yellow;
+    padding-top: $base-padding;
+    padding-bottom: $base-padding;
+
+    p{
+        margin-bottom: 0px;
+    }
+    a{
+        color: $franco-yellow;
+        cursor: pointer;
+    }
 }
 
 .pagination-wrap {
