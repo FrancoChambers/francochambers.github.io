@@ -54,6 +54,12 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
 .heading{
     color: $franco-yellow;
 }
+
+.content{
+    p.text{
+        color: $franco-yellow;
+    }
+}
 .centered-text{
     text-align: center;
 }
@@ -71,7 +77,71 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
     height: 100px;
 }
 
+.value{
+    padding-bottom: $base-padding;
+}
 
+.container{
+    padding-top: $base-padding;
+    padding-bottom: $base-padding;
+}
+.about-us-img{
+    align-items: center;
+    background-color: $franco-yellow;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    vertical-align: middle;
+
+    img{
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.no-right-padding{
+    padding-right: 0px;
+}
+
+
+
+.border{
+    border: 0.5px solid $franco-yellow;
+    &.no-left-border{
+        border-left: none;
+    }
+    &.no-right-border{
+        border-right: none;
+    }
+}
+
+.row.is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.is-flex > [class*='col-'] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
 /* navbar */
 .navbar.franco-navbar {
     background-color: $franco-brown;
@@ -341,6 +411,7 @@ aside {
 }
 
 .topper {
+    margin-top: 90px;
     height: 500px;
     position: relative;
 
