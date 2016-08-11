@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg4985" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="82.824mm" width="82.237mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 291.39086 293.47032">
+ <defs id="defs4987">
+  <clipPath id="clipPath4964-8" clipPathUnits="userSpaceOnUse">
+   <rect id="rect4966-4" height="41.211" width="49.805" stroke="#2e2e2e" y="-6.1949" x="-7.043" stroke-width="10" fill="#2e2e2e"/>
+  </clipPath>
+ </defs>
+ <metadata id="metadata4990">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(1470.6 1404.3)">
+  <g id="g5405" transform="matrix(1.861 0 0 1.861 22335 17302)">
+   <g id="g4596-3" transform="matrix(.67050 0 0 .67060 -4112.9 -2401.4)">
+    <ellipse id="path4484-1" rx="112.76" ry="113.57" stroke="#fff6a2" cy="-11291" cx="-12827" stroke-width="8.0136" fill="none"/>
+   </g>
+   <g id="g4953" clip-path="url(#clipPath4964-8)" transform="matrix(2.6899 0 0 2.6899 -12757 -10017)" fill="#fff6a2">
+    <path id="path4941" d="m13 0c-0.261 0-0.53 0.093-0.719 0.281-0.189 0.189-0.281 0.458-0.281 0.719v2h-11.5c-0.3 0-0.5 0.2-0.5 0.5v7.5c0 0.5 0.7 1 1.5 1h10.5v-0.813c0-0.7 0.588-1.188 1.188-1.188h5.5c0.7 0 1.219 0.588 1.219 1.188v0.813h10.5c0.8 0 1.5-0.5 1.5-1v-7.813c-0.087-0.121-0.228-0.188-0.406-0.188h-11.5v-2c0-0.261-0.093-0.53-0.281-0.719-0.189-0.189-0.458-0.281-0.719-0.281h-6zm0 1h6v2h-6v-2zm0.188 10c-0.1 0-0.188 0.088-0.188 0.188v2.625c0 0.1 0.088 0.188 0.188 0.188h5.5c0.1 0 0.219-0.088 0.219-0.188v-2.625c0-0.1-0.119-0.188-0.219-0.188h-5.5zm-13.188 1.594v13.906c0 0.3 0.2 0.5 0.5 0.5h31c0.3 0 0.5-0.2 0.5-0.5v-13.906c-0.4 0.2-0.9 0.406-1.5 0.406h-10.5v0.813c0 0.7-0.587 1.188-1.188 1.188h-5.5c-0.7 0-1.219-0.588-1.219-1.188v-0.813h-10.594c-0.6 0-1.1-0.206-1.5-0.406z" transform="translate(0,2)"/>
+    <text id="text4943" font-size="5px" font-family="&apos;Helvetica Neue&apos;, Helvetica, Arial-Unicode, Arial, Sans-serif" y="47" x="0" font-weight="bold">Created by useiconic.com</text>
+    <text id="text4945" font-size="5px" font-family="&apos;Helvetica Neue&apos;, Helvetica, Arial-Unicode, Arial, Sans-serif" y="52" x="0" font-weight="bold">from the Noun Project</text>
+   </g>
+  </g>
+ </g>
+</svg>
