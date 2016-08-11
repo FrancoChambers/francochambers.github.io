@@ -77,6 +77,43 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
     height: 100px;
 }
 
+svg{
+    width: 100px;
+    height: 100px;
+}
+
+.hover-icon-link{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    padding-bottom: $base-padding;
+    
+    a:hover{    
+        border-radius: 50px;
+        padding-left: $base-padding;
+        padding-right: $base-padding;
+        background:$franco-yellow;
+        color:$franco-brown;
+        fill: $franco-brown;
+        
+        h3{
+            color: $franco-brown;
+        }
+
+        path{
+            fill: $franco-brown;
+        }
+        
+        circle{
+            fill: $franco-brown;
+        }
+    }
+
+
+}
+
+
+
 .value{
     padding-bottom: $base-padding;
 }
@@ -107,6 +144,10 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
 
 .no-right-padding{
     padding-right: 0px;
+}
+
+.no-left-padding{
+    padding-left: 0px;
 }
 
 
