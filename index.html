@@ -4,25 +4,30 @@ featured_image: '/images/banner-lawbooks.jpg'
 ---
 
 
-<div class="container">
+<div class="container values">
     <div class="row">
         <div class="col-sm-12 heading centered-text">
             <h2>OUR VALUES</h2>
         </div>
+        {% for item in site.data.home.values %}
         <div class="col-xs-12 col-sm-4 value">
-            <div class="heading centered-text"><h3>TRUST</h3></div>
-            <div class="icon-center"><img class="icons disabled" id="trust-icon" src="images/icons/Trust.svg"/></div>
+            <div class="heading centered-text"><h3>{{item.text}}</h3></div>
+            <div class="icon-center grow"><img class="icons" id="{{item.id}}" src="{{item.url}}"/></div>
         </div>
+        {% endfor %}
+    </div>
+</div>
 
-        <div class="col-xs-12 col-sm-4 value">
-            <div class="heading centered-text"><h3>LEGACY</h3></div>
-            <div class="icon-center"><img class="icons disabled" id="legacy-icon" src="images/icons/Legacy.svg"/></div>
+<div class="container about-us">
+    <div class="row is-flex">
+        <div class="col-sm-4 no-right-padding">
+            <div class="about-us-img">
+                <img src="images/team-small.JPG"/>
+            </div>
         </div>
-
-        <div class="col-xs-12 col-sm-4 value">
-            <div class="heading centered-text"><h3>SERVICE</h3></div>
-            <div class="icon-center"><img class="icons disabled" id="service-icon" src="images/icons/Service.svg"/></div>
+        <div class="col-sm-8 border no-left-border" >
+            <div class="heading"><h3>About Us</h3></div>
+            <div class="content"><p class="text">{{site.data.home.about_us}}</p></div>
         </div>
-
     </div>
 </div>

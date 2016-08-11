@@ -1,0 +1,6 @@
+values:
+  - {url: 'images/icons/Trust.svg', text: 'TRUST', id: 'trust-icon'}
+  - {url: 'images/icons/Legacy.svg', text: 'LEGACY', id: 'service-icon'}
+  - {url: 'images/icons/Service.svg', text: 'SERVICE', id: 'legacy-icon'}
+
+about_us: 'Franco Chambers & Co. is a small family owned and operated firm conveniently located on Ben Jones Street Grenville and Main Street in Sauteurs. Franco chambers is a full-service firm with a knowledgeable team fully prepared to assist you with your legal problems. The attorneys at Franco Chambers consist of a team with a wide range of experiences that is determined to obtain consistent and effective results for your legal matters. Since its predecessors inception in 1978 the firm has dedicated itself to providing quality, efficiency and competent legal services to it’s clients.'
