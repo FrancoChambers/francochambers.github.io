@@ -8,8 +8,11 @@ $scotch-primary: rgb(255, 69, 69);
 $scotch-secondary: #FF7B7B;
 $franco-brown: #432d25;
 $franco-yellow:  #fff6a2;
+$franco-placeholder: #B7B074;
 $base-padding: 20px;
+$base-margin: 20px;
 $dropDown: false;
+
 
 %oswald { font-family: 'Oswald', sans-serif; }
 %roboto { font-family: 'Roboto Condensed', sans-serif; }
@@ -150,7 +153,9 @@ svg{
     padding-left: 0px;
 }
 
-
+.base-padding{
+    padding: $base-padding;
+}
 
 .border{
     border: 0.5px solid $franco-yellow;
@@ -160,6 +165,12 @@ svg{
     &.no-right-border{
         border-right: none;
     }
+}
+
+.small-icon{
+    height: 30px;
+    margin-right: $base-padding;
+    width:30px;
 }
 
 .row.is-flex {
@@ -183,6 +194,46 @@ svg{
     -ms-flex-direction: column;
     flex-direction: column;
 }
+
+input, textarea{
+
+    background-color: $franco-brown;
+    border-width: 1px;
+    border-color: $franco-yellow;
+    font-size: 20px;
+}
+
+.message-box{
+    margin-top: $base-margin;
+}
+
+.send-btn{
+    height: 40px;
+    color: $franco-yellow;
+    margin-top: $base-margin;
+    margin-bottom: $base-margin;
+
+    &:hover{
+    background-color: $franco-yellow;
+    color: $franco-brown;
+    }
+}
+::-webkit-input-placeholder {
+   color: $franco-placeholder;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $franco-placeholder;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $franco-placeholder;  
+}
+
+:-ms-input-placeholder {  
+   color: $franco-placeholder;  
+}
+
 /* navbar */
 .navbar.franco-navbar {
     background-color: $franco-brown;
@@ -449,6 +500,10 @@ aside {
 
 .pagination-wrap {
     text-align: center;
+}
+
+.push{
+    margin-top: 90px;
 }
 
 .topper {

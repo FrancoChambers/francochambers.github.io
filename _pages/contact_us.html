@@ -3,31 +3,98 @@ layout: default
 permalink: /contact_us/
 ---
 
-<div class="container branchbox">
+<div class="container branchbox push">
     <div class="row">
-        <div class="col-sm-8 left-branch">
+        <div class="col-sm-8 left-branch border no-right-border">
             <div class="heading"><h3>{{site.data.contact_us.branch1-heading}}</h3></div>
-            <div class="content">
+            <div class="content contact-info">
                 {% for item in site.data.contact_us.branch1-content %}
-                <p><img class="smallicon" src="item.url"/>{{item.text}}</p>
+                <p><img class="small-icon" src="{{item.url}}"/>{{item.text}}</p>
                 {% endfor %}
             </div>
+        </div>
+        <div class="col-sm-4 map no-right-padding no-left-padding" id="map1">
+            
         </div>
     </div>
 </div>
 
 <div class="container branchbox">
     <div class="row">
-        <div class="col-sm-8 right-branch">
+        <div class="col-sm-4 map no-right-padding no-left-padding" id="map2">
+            
+        </div>
+        <div class="col-sm-8 right-branch border no-left-border">
             <div class="heading"><h3>{{site.data.contact_us.branch2-heading}}</h3></div>
-            <div class="content">
+            <div class="content contact-info">
                 {% for item in site.data.contact_us.branch2-content %}
-                <p><img class="smallicon" src="item.url"/>{{item.text}}</p>
+                <p><img class="small-icon" src="{{item.url}}"/>{{item.text}}</p>
                 {% endfor %}
             </div>
         </div>
     </div>
 </div>
+
+
+<div class="contianer consultation border">
+    <div class="row">
+        <div class="col-xs-12 heading centered-text"><h3>Request a Consultation</h3></div>
+        <div class="content contact-form base-padding">
+            <form class="col-sm-12" action="https://formspree.io/ramanvenu94@gmail.com"  method="POST" id='consultform'>
+                <input class= "space-padding col-sm-5" type="text" name="name" placeholder="Your name"/>
+                <input class= "space-padding col-sm-5 col-sm-offset-2" type="email" name="_replyto" placeholder="Your Email"/>
+                <textarea class="message-box col-sm-12" name="message" form="consultform" placeholder="Enter your text here.."></textarea>
+                <input type="hidden" name="_next" value="AutomatedMessage.html"/>
+                <input type="hidden" name="_subject" value="New Consultation requested" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <input class="send-btn col-sm-4 col-sm-offset-4 " type="submit" value="SEND"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+        function initMap() {
+        styles=[{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}]
+        
+          var map1loc = {lat: 12.123385, lng: -61.622829};
+          var map2loc = {lat: 12.224757, lng: -61.639424};
+
+        
+          var mapDiv1 = document.getElementById('map1');
+          var map1 = new google.maps.Map(mapDiv1, {
+              center: map1loc,
+              zoom: 17,
+              styles: styles
+          });
+          var mapDiv2 = document.getElementById('map2');
+          var maploc2 = {}
+          var map2= new google.maps.Map(mapDiv2, {
+              center: map2loc,
+              zoom: 17,
+              styles: styles
+              
+      
+          });
+
+          var marker1= new google.maps.Marker({
+            position: map1loc,
+            map: map1,
+            title: "Franco Chambers"
+          });
+
+
+          var marker2= new google.maps.Marker({
+            position: map2loc,
+            map: map2,
+            title: "Franco Chambers"
+          });
+      }
+        
+</script>
+<script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS3SXVRAYqBUUMY4kghbJY9FOHbkTQAE8&callback=initMap">
+</script>
 
 
 
