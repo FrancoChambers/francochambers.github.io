@@ -17,6 +17,7 @@ $dropDown: false;
 
 body {
     @extend %roboto;
+    background-color: $franco-brown;
     font-size: 18px;
     line-height: 30px;
     padding-top: 0px;
@@ -50,10 +51,26 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
         transform: scale(1.1);
     }
 }
-
+.heading{
+    color: $franco-yellow;
+}
 .centered-text{
     text-align: center;
 }
+
+.icon-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icons {
+    color: $franco-yellow;
+    width: 100px;
+    height: 100px;
+}
+
 
 /* navbar */
 .navbar.franco-navbar {
