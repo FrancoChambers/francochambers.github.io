@@ -1,6 +1,5 @@
 content:
   -
-    heading: ""
     text: "The Privacy Policy refers to information collected online from users on this website.  On this policy you can learn the type of information that is acceptable on the website, how we might use that information, how we protect that information and the choices you have with respect to your personal information."
   -
     heading: "Acceptable Personal Information on the Website"
@@ -25,5 +24,4 @@ content:
       - {text: "As required by law in a matter of public safety or policy"}
 
   -
-    heading: "Disclaimer"
     text: "Please note you can always opt out of communication with Franco Chambers or change personal information at anytime. Contact via phone, contact box, email address or traditional mail to do so."
