@@ -1,0 +1,16 @@
+---
+layout: default
+permalink: /who_we_are/
+featured_image: 'images/banner-lawbooks.jpg'
+title: 'Who We Are'
+---
+
+<div class="container">
+    <div class="row">
+        <div class="content">
+            {% for item in site.data.who_we_are.content%}
+                <p class="text">{{item.text}}</p>
+            {% endfor %}
+        </div>
+    </div>  
+</div>
