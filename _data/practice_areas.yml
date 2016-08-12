@@ -1,0 +1,9 @@
+heading: "Practice Areas"
+list: 
+  - {title: "Conveyancing", text: " We handle all matters related to conveyancing such as transfer of property from one person to another by sale, gift or inherited property "}
+  - {title: "Criminal", text: "We provide representation for persons who are charged for criminal offences before the criminal court  "}
+  - {title: "Family", text: "We advise clients on Divorce, Adoption, Maintenance, Domestic violence and other Family Law matters  "}
+  - {title: "Litigation", text: "We handle matters to be decided by the Court where contentious matters cannot be resolved amicably  "}
+  - {title: "Probate", text: "When someone dies with property in his/her name, that property could only be transferred by way of probate.  The court appoints an Executor (if the person has a Will) or Administrator (if the person does not have a Will) to deal with the property of the deceased.  "}
+  - {title: "Real", text: "The buying and selling of property. We assist persons both here and abroad with property here in Grenada, who wish to sell that property.  "}
+  - {title: "Immigration", text: "We assist with Immigration matters as it relates to Immigration Laws and processes in Grenada."}
