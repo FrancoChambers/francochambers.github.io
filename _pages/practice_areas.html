@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /practice_areas/
+---
+
+<div class="container">
+    <div class="row">
+        <div class="heading"><h3>{{ site.data.practice_areas.heading }}</h3></div>
+        <div class="content">
+            <ul>
+                {% for item in site.data.practice_areas.list %}
+                    <li class="practice-area-list-item"><span class="list-title">{{item.title}}</span>
+                        <br/>{{item.text}}
+                    </li>
+                {% endfor%} 
+            </ul>
+        </div>
+    </div>
+    
+</div>

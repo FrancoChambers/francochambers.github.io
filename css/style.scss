@@ -30,6 +30,14 @@ p, li{
     color: $franco-yellow;
 }
 
+.list-title{
+    font-size: 20px;
+}
+
+.practice-area-list-item{
+    padding-bottom: $base-padding;
+}
+
 section, header, footer, main, article, nav, aside { position: relative; }
 a {
     outline: none !important;
