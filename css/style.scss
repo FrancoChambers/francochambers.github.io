@@ -8,8 +8,11 @@ $scotch-primary: rgb(255, 69, 69);
 $scotch-secondary: #FF7B7B;
 $franco-brown: #432d25;
 $franco-yellow:  #fff6a2;
+$franco-placeholder: #B7B074;
 $base-padding: 20px;
+$base-margin: 20px;
 $dropDown: false;
+
 
 %oswald { font-family: 'Oswald', sans-serif; }
 %roboto { font-family: 'Roboto Condensed', sans-serif; }
@@ -24,7 +27,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 p {
-    margin-bottom: 30px;
+    color: $franco-yellow;
 }
 section, header, footer, main, article, nav, aside { position: relative; }
 a {
@@ -53,6 +56,7 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
 }
 .heading{
     color: $franco-yellow;
+    padding-bottom: $base-padding;
 }
 
 .content{
@@ -150,7 +154,9 @@ svg{
     padding-left: 0px;
 }
 
-
+.base-padding{
+    padding: $base-padding;
+}
 
 .border{
     border: 0.5px solid $franco-yellow;
@@ -162,6 +168,44 @@ svg{
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .border{
+      &.no-left-border{
+        border-left: 0.5px solid $franco-yellow;
+        }
+      &.no-right-border{
+        border-right: 0.5px solid $franco-yellow;
+      }
+      &.small-no-top-border{
+        border-top: none;
+      }
+    }
+
+    .small-bottom-padding{
+        padding-bottom: $base-padding; 
+    } 
+
+    .icons{
+        height: 150px;
+        width: 150px;
+    }
+
+    svg{
+        height: 150px;
+        width: 150px;
+    }   
+}
+
+.small-icon{
+    height: 30px;
+    margin-right: $base-padding;
+    width:30px;
+}
+
+
+.gmnoprint{
+    display: none;
+}
 .row.is-flex {
     display: -webkit-box;
     display: -webkit-flex;
@@ -183,6 +227,48 @@ svg{
     -ms-flex-direction: column;
     flex-direction: column;
 }
+
+input, textarea{
+
+    background-color: $franco-brown;
+    border-width: 1px;
+    border-color: $franco-yellow;
+    color: $franco-yellow;
+    font-size: 20px;
+    margin-bottom: $base-margin
+}
+
+.message-box{
+    margin-top: $base-margin;
+}
+
+.send-btn{
+    height: 40px;
+    color: $franco-yellow;
+    margin-top: $base-margin;
+    margin-bottom: $base-margin;
+
+    &:hover{
+    background-color: $franco-yellow;
+    color: $franco-brown;
+    }
+}
+::-webkit-input-placeholder {
+   color: $franco-placeholder;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $franco-placeholder;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $franco-placeholder;  
+}
+
+:-ms-input-placeholder {  
+   color: $franco-placeholder;  
+}
+
 /* navbar */
 .navbar.franco-navbar {
     background-color: $franco-brown;
@@ -449,6 +535,10 @@ aside {
 
 .pagination-wrap {
     text-align: center;
+}
+
+.push{
+    margin-top: 90px;
 }
 
 .topper {
