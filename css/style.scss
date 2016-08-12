@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
 }
 .heading{
     color: $franco-yellow;
+    padding-bottom: $base-padding;
 }
 
 .content{
@@ -167,12 +168,44 @@ svg{
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .border{
+      &.no-left-border{
+        border-left: 0.5px solid $franco-yellow;
+        }
+      &.no-right-border{
+        border-right: 0.5px solid $franco-yellow;
+      }
+      &.small-no-top-border{
+        border-top: none;
+      }
+    }
+
+    .small-bottom-padding{
+        padding-bottom: $base-padding; 
+    } 
+
+    .icons{
+        height: 150px;
+        width: 150px;
+    }
+
+    svg{
+        height: 150px;
+        width: 150px;
+    }   
+}
+
 .small-icon{
     height: 30px;
     margin-right: $base-padding;
     width:30px;
 }
 
+
+.gmnoprint{
+    display: none;
+}
 .row.is-flex {
     display: -webkit-box;
     display: -webkit-flex;
@@ -200,7 +233,9 @@ input, textarea{
     background-color: $franco-brown;
     border-width: 1px;
     border-color: $franco-yellow;
+    color: $franco-yellow;
     font-size: 20px;
+    margin-bottom: $base-margin
 }
 
 .message-box{
