@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="150.53566mm"
-   height="151.5778mm"
-   viewBox="0 0 533.39375 537.08663"
+   width="84.666916mm"
+   height="85.252861mm"
+   viewBox="0 0 300.0007 302.07702"
    id="svg4985"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -37,18 +37,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="199.57532"
-     inkscape:cy="433.50426"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-374.71068"
+     inkscape:cy="216.97463"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4216"
      showgrid="false"
      inkscape:showpageshadow="false"
      showborder="true"
-     inkscape:window-width="1362"
-     inkscape:window-height="729"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
      inkscape:window-x="0"
-     inkscape:window-y="18"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -70,21 +70,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(87.209964,-104.06224)">
+     transform="translate(-1.1846293,-176.96293)">
     <g
        transform="matrix(2.3209149,0,0,2.320511,29950.565,26572.582)"
        id="g4216"
        style="display:inline">
-      <ellipse
-         style="fill:none;fill-opacity:1;stroke:#fff6a2;stroke-width:4.309021;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="ellipse4218"
-         cx="-12827.303"
-         cy="-11290.606"
-         rx="112.75578"
-         ry="113.57143" />
       <g
          id="g4220"
-         transform="matrix(2.1615919,0,0,2.1615919,-12934.241,-11399.434)"
+         transform="matrix(1.2128545,0,0,1.2128545,-12897.986,-11372.67)"
          style="fill:#fff6a2;fill-opacity:1">
         <g
            id="g4222"
@@ -153,6 +146,13 @@
           </g>
         </g>
       </g>
+      <ellipse
+         style="display:inline;fill:none;fill-opacity:1;stroke:#fff6a2;stroke-width:4.30901957;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4484-3"
+         cx="-12839.497"
+         cy="-11309.828"
+         rx="62.475349"
+         ry="62.933956" />
     </g>
   </g>
 </svg>
