@@ -12,7 +12,7 @@ featured_image: '/images/banner-lawbooks.jpg'
         {% for item in site.data.home.values %}
         <div class="col-xs-12 col-sm-4 value">
             <div class="heading centered-text"><h3>{{item.text}}</h3></div>
-            <div class="icon-center grow"><img class="icons" id="{{item.id}}" src="{{item.url}}"/></div>
+            <div class="icon-center grow"><img class="icons disabled" id="{{item.id}}" src="{{item.url}}"/></div>
         </div>
         {% endfor %}
     </div>
