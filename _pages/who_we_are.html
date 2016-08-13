@@ -5,13 +5,13 @@ featured_image: '/images/banner-lawbooks.jpg'
 title: 'Who We Are'
 ---
 
+{% for item in site.data.who_we_are.content%}
 <div class="container">
     <div class="row">
-        <div class="heading"><h3>{{ site.data.who_we_are.heading }}</h3></div>
-        	<div class="content">
-            	{% for item in site.data.who_we_are.content%}
-                	<p class="text">{{item.text}}</p>
+        <div class="heading"><h3>{{ item.heading }}</h3></div>
+        <div class="content">
+                <p class="text">{{item.text}}</p>
             	{% endfor %}
-       		</div>
+       	</div>
     </div>  
 </div>
