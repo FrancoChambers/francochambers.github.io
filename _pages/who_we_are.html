@@ -17,7 +17,7 @@ title: 'Who We Are'
 {% endfor %}
 
 {% for item in site.data.who_we_are.the_team%}
-<div class="container the_team">
+<div class="container">
     <div class="row img-profiles">
         <div class="heading"><h3>{{ item.heading }}</h3></div>
             <div class="the_team">
@@ -27,15 +27,39 @@ title: 'Who We Are'
 </div>
 {% endfor %}
 
-{% for item in site.data.who_we_are.the_team%}
-<div class="container the_team">
-    <div class="row img-profiles">
+{% for item in site.data.who_we_are.bios%}
+<div class="container">
+    <div class="row">
         <div class="heading"><h3>{{ item.heading }}</h3></div>
-            <div class="tillman-thomas-img">
+            <div class="tillman-thomas-img img-profiles">
                 <img src="images/tillman.jpg"/>
             </div>
-            <div class="the_team">
+            <div class="bios">
             	<p class="text">{{ item.upper-text}}
+            </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="heading"><h3>{{ item.heading }}</h3></div>
+            <div class="andre-thomas-img img-profiles">
+                <img src="images/andre.jpg"/>
+            </div>
+            <div class="bios">
+            	<p class="text">{{ item.mid-text}}
+            </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="heading"><h3>{{ item.heading }}</h3></div>
+            <div class="rae-thomas-img img-profiles">
+                <img src="images/rae.jpg"/>
+            </div>
+            <div class="bios">
+            	<p class="text">{{ item.lower-text}}
             </div>
     </div>
 </div>
