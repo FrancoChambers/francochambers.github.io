@@ -8,7 +8,7 @@ title: 'Who We Are'
 {% for item in site.data.who_we_are.content%}
 <div class="container">
     <div class="row">
-        <div class="heading"><h3>{{ item.heading }}</h3></div>
+        <div class="col-sm-12 heading centered-text"><h3>{{ item.heading }}</h3></div>
         <div class="content">
                 <p class="text">{{ item.text }}</p>
        	</div>
@@ -19,7 +19,7 @@ title: 'Who We Are'
 {% for item in site.data.who_we_are.the_team%}
 <div class="container">
     <div class="row">
-        <div class="heading"><h3>{{ item.heading }}</h3></div>
+        <div class="col-sm-12 heading centered-text"><h3>{{ item.heading }}</h3></div>
             <div class="the_team">
             	<p class="text">{{ item.intro-text}}
             </div>
@@ -67,8 +67,8 @@ title: 'Who We Are'
 
 <div class="container">
     <div class="row">
-    	<div class="col-sm-4 img-block">
-        	<div>
+    	<div class="col-sm-4">
+        	<div class="img-block">
         		<img class="bio-img" src="/images/rae.jpg"/>
         	</div>
       	</div>
