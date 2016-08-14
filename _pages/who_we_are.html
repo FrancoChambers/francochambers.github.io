@@ -48,10 +48,17 @@ title: 'Who We Are'
 {% for item in site.data.who_we_are.at-bio%}
 <div class="container">
     <div class="row">
-        <div class="heading"><h3>{{ item.heading }}</h3></div>
-            <div class="bios">
-            	<p class="text">{{ item.mid-text}}
-            </div>
+    	<div class="col-sm-8">
+        	<div class="heading"><h3>{{ item.heading }}</h3></div>
+            	<div class="bios">
+            		<p class="text">{{ item.mid-text}}
+            	</div>
+        </div>
+        <div class="col-sm-4">
+        	<div class="bio-img">
+        		<img src="images/andre.jpg"/>
+        	</div>
+        </div>
     </div>
 </div>
 {% endfor %}
