@@ -27,7 +27,7 @@ title: 'Who We Are'
 </div>
 {% endfor %}
 
-{% for item in site.data.who_we_are.bio%}
+{% for item in site.data.who_we_are.tt-bio%}
 <div class="container">
     <div class="row">
         <div class="heading"><h3>{{ item.heading }}</h3></div>
@@ -36,7 +36,9 @@ title: 'Who We Are'
             </div>
     </div>
 </div>
+{% endfor %}
 
+{% for item in site.data.who_we_are.at-bio%}
 <div class="container">
     <div class="row">
         <div class="heading"><h3>{{ item.heading }}</h3></div>
@@ -45,7 +47,9 @@ title: 'Who We Are'
             </div>
     </div>
 </div>
+{% endfor %}
 
+{% for item in site.data.who_we_are.rt-bio%}
 <div class="container">
     <div class="row">
         <div class="heading"><h3>{{ item.heading }}</h3></div>
