@@ -630,23 +630,9 @@ pre {
 .border {
     border: 0.5px solid #fff6a2;
     padding: 20px 0;
+    margin-top: 60px;
 }
 
-.content{
-    p.text-padding{
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 5px;
-        padding botton: 5px;
-    }
-}
-
-
-.the_team{
-    p.text-padding{
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 5px;
-        padding botton: 5px;
-    }
+.text-padding {
+    padding: 25px;
 }
