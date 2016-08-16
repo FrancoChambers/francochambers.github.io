@@ -180,7 +180,6 @@ svg{
     &.no-right-border{
         border-right: none;
     }
-    margin-top: 60px; 
 }
 
 @media only screen and (max-width: 768px) {
@@ -629,4 +628,8 @@ pre {
     align-items: center;
     padding: $base-padding;
     
+}
+
+.categories {
+     margin-top: 60px;
 }
