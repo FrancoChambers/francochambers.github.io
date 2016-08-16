@@ -136,9 +136,13 @@ svg{
     padding-top: $base-padding;
     padding-bottom: $base-padding;
 }
-.about-us-img{
-    align-items: center;
+
+.background-yellow{
     background-color: $franco-yellow;
+}
+
+.center-img{
+    align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -620,16 +624,8 @@ pre {
 
 .bio-img{
     border-radius: 50%;
-    width: 200px;
+    display: flex;
     align-items: center;
-}
-
-.border {
-    border: 0.5px solid #fff6a2;
-    padding: 20px;
-    margin-top: 60px;
-}
-
-.text-padding {
-    padding: 25px;
+    padding: $base-padding;
+    
 }

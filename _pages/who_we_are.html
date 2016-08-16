@@ -2,7 +2,6 @@
 layout: default
 permalink: /who_we_are/
 featured_image: '/images/banner-lawbooks.jpg'
-title: 'Who We Are'
 ---
 
 {% for item in site.data.who_we_are.content%}
@@ -10,77 +9,57 @@ title: 'Who We Are'
     <div class="row">
         <div class="col-sm-12 heading centered-text"><h3>{{ item.heading }}</h3></div>
         <div class="content">
-                <p class="text centered-text text-padding">{{ item.text }}</p>
+                <p class="text centered-text base-padding">{{ item.text }}</p>
        	</div>
     </div>  
 </div>
 {% endfor %}
 
 <div class="container border">
-{% for item in site.data.who_we_are.the_team%}
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12 heading centered-text"><h3>{{ item.heading }}</h3></div>
-            <div class="the_team">
-            	<p class="text centered-text text-padding">{{ item.intro-text}}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 heading centered-text"><h3>{{ site.data.who_we_are.the_team.heading }}</h3></div>
+                <div class="the_team">
+                	<p class="text centered-text base-padding">{{ site.data.who_we_are.the_team.intro-text }}</p>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+    {% for item in site.data.who_we_are.bios %}
+        <div class="container">
+            <div class="row is-flex">
+                {% if item.image-location == 'left' %}
+                    <div class="col-sm-4">
+                        <div class="center-img">
+                            <img class="bio-img" src="{{item.image-url}}"/>
+                        </div>
+                    </div>                       
+                    <div class="col-sm-8">
+                        <div class="heading base-padding"><h3>{{item.heading}}</h3></div>
+                        <div class="bio">
+                            <p class="text base-padding">{{ item.text }}</p>
+                        </div>
+                    </div>
+
+                {% else %}
+                    <div class="col-sm-4 col-sm-push-8">
+                        <div class="center-img">    
+                            <img class="bio-img" src="{{item.image-url}}/">
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-pull-4">
+                        <div class="heading base-padding"><h3>{{item.heading}}</h3></div>
+                        <div class="bio">
+                            <p class="text base-padding">{{ item.text }}</p>
+                        </div>
+                    </div>        
+                {% endif %}            
             </div>
-    </div>
-</div>
-{% endfor %}
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4">
-        	<div class="img-block">
-        		<img class="bio-img" src="/images/tillman.jpg"/>
-        	</div>
-        </div>
-       	{% for item in site.data.who_we_are.tt-bio%}
-    	<div class="col-sm-8">
-        	<div class="heading text-padding"><h3>{{ item.heading }}</h3></div>
-            	<div class="bio">
-            		<p class="text text-padding">{{ item.upper-text}}
-            	</div>
-        </div>
-        {% endfor %}
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-    {% for item in site.data.who_we_are.at-bio%}
-    	<div class="col-sm-8">
-        	<div class="heading text-padding"><h3>{{ item.heading }}</h3></div>
-            	<div class="bios">
-            		<p class="text text-padding">{{ item.mid-text}}
-            	</div>
         </div>
     {% endfor %}
-        <div class="col-sm-4">
-        	<div class="img-block">
-        		<img class="bio-img" src="/images/andre.jpg"/>
-        	</div>
-        </div>
-    </div>
 </div>
 
-
-<div class="container">
-    <div class="row">
-    	<div class="col-sm-4">
-        	<div class="img-block">
-        		<img class="bio-img" src="/images/rae.jpg"/>
-        	</div>
-      	</div>
-     {% for item in site.data.who_we_are.rt-bio%}
-      	<div class="col-sm-8">
-        	<div class="heading text-padding"><h3>{{ item.heading }}</h3></div>
-            	<div class="bios">
-            		<p class="text text-padding">{{ item.lower-text}}
-            	</div>
-        </div>
-     {% endfor %}
-    </div>
-</div>
-</div>
