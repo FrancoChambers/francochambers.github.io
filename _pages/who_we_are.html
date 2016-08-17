@@ -9,7 +9,7 @@ featured_image: '/images/banner-lawbooks.jpg'
     <div class="row">
         <div class="col-sm-12 heading centered-text"><h3>{{ item.heading }}</h3></div>
         <div class="content">
-                <p class="text centered-text base-padding">{{ item.text }}</p>
+                <p class="text base-padding {{item.format}}">{{ item.text }}</p>
        	</div>
     </div>  
 </div>
@@ -20,7 +20,7 @@ featured_image: '/images/banner-lawbooks.jpg'
         <div class="row">
             <div class="col-sm-12 heading centered-text"><h3>{{ site.data.who_we_are.the_team.heading }}</h3></div>
                 <div class="the_team">
-                	<p class="text centered-text base-padding">{{ site.data.who_we_are.the_team.intro-text }}</p>
+                	<p class="text justify-text base-padding">{{ site.data.who_we_are.the_team.intro-text }}</p>
                 </div>
         </div>
     </div>
@@ -40,7 +40,7 @@ featured_image: '/images/banner-lawbooks.jpg'
                     </div>                       
                     <div class="col-sm-8">
                         <div class="heading base-padding"><h3>{{item.heading}}</h3></div>
-                        <div class="bio">
+                        <div class="bio justify-text">
                             <p class="text base-padding">{{ item.text }}</p>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ featured_image: '/images/banner-lawbooks.jpg'
                     <div class="col-sm-8 col-sm-pull-4">
                         <div class="heading base-padding"><h3>{{item.heading}}</h3></div>
                         <div class="bio">
-                            <p class="text base-padding">{{ item.text }}</p>
+                            <p class="text base-padding justify-text">{{ item.text }}</p>
                         </div>
                     </div>        
                 {% endif %}            
