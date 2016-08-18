@@ -73,21 +73,27 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
         color: $franco-yellow;
     }
 }
+
 .centered-text{
     text-align: center;
+}
+
+.justify-text {
+    text-align: justify;
 }
 
 .icon-center{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .icons {
     color: $franco-yellow;
     width: 100px;
     height: 100px;
+    cursor: pointer;
 }
 
 svg{
@@ -135,9 +141,13 @@ svg{
     padding-top: $base-padding;
     padding-bottom: $base-padding;
 }
-.about-us-img{
-    align-items: center;
+
+.background-yellow{
     background-color: $franco-yellow;
+}
+
+.center-img{
+    align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -613,4 +623,18 @@ pre {
         font-size: 22px;
         line-height: 35px;
     }
+}
+
+/*Who we are page*/
+
+.bio-img{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: $base-padding;
+    
+}
+
+.categories {
+     margin-top: 60px;
 }

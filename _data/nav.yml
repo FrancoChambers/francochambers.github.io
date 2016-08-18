@@ -1,6 +1,6 @@
 main:
     - { url: '/', text: 'Home' }
-    - { url: '/about', text: 'About' }
+    - { url: '/who_we_are', text: 'Who We Are' }
     - { url: '/practice_areas', text: 'Practice Areas'}
     - { url: '/contact_us', text: 'Contact Us'}
     # - { url: 'https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme', text: 'Read the Tutorial' }

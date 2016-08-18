@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /practice_areas/
+featured_image: '/images/banner-lawbooks.jpg'
 ---
 
 <div class="container">
@@ -9,7 +10,7 @@ permalink: /practice_areas/
         <div class="content">
             <ul>
                 {% for item in site.data.practice_areas.list %}
-                    <li class="practice-area-list-item"><span class="list-title">{{item.title}}</span>
+                    <li class="practice-area-list-item"><span class="list-title"><strong>{{item.title}}</strong></span>
                         <br/>{{item.text}}
                     </li>
                 {% endfor%} 

@@ -1,0 +1,30 @@
+content: 
+  -
+    heading: "Mission"
+    text: "To provide an array of novel legal solutions, excellent legal representation and exceptional customer services to our clients."
+    format: "centered-text"
+  -
+    heading: "Evolution of Franco Chambers"
+    text: "Sometime in the later half of 1978 after graduating from the Hugh Wooding Law School, Tillman Thomas started a legal practice as a Sole Practitioner in Grenville, St. Andrew and Sauteurs, St. Patrick in the State of Grenada.  In 1980, Ms. Maureen Emmanuel joined Mr. Tillman Thomas and they formed a partnership.  Thomas & Emmanuel established an additional office located in the heart of the capital city  on Granby Street in St. George’s. The partnership started to flourish; however on 11th July, 1981, Mr. Thomas was detained by the People's Revolutionary Government as a counter-revolutionary. His detention placed a strain on the partnership which became very difficult for Ms. Emmanuel to sustain, manage and maintain all by herself. The partnership died a natural death a few months after its establishment. After he was released from detention following the U.S and Caribbean Intervention in October 1983, Mr. Thomas again started as a Sole practitioner with office space at the Chambers of Attorney-at-Law, Lloyd Noel in St. Georges.  Lloyd had a well established and flourishing practice before they were both detained in 1981. Mr. Thomas also reopened his offices at Sauteurs, St. Patrick and Grenville, St. Andrew. During that time he became actively involved in party political activities. In December 1984 he was elected as the member of Parliament for St. Patrick East and accepted a post within the Government. He suspended his legal practice while serving as a Minister of Government. Apart from serving as a minister of Government between December 1984 and  March 1987 and 1990 and 1995 and as Prime Minister from July 2008 to the middle of February 2013 he has devoted his life to the practice of the law notwithstanding his involvement in party political activities. Franco Chambers & Co. was incorporated and established in 2009 by Andre Thomas while Tillman was serving as Prime Minister. Andre managed the company single handedly until 2013 when Tillman returned to practicing law. Tillman and Andre are currently senior partners of the Company and Rae, an Associate."
+    format: "justify-text"
+
+the_team:
+  heading: "The Team"
+  intro-text: "Franco Chambers consists of a comprehensive team of vast experiences that has dedicated itself to providing quality services to its clients. The Firm is family-owned and operated with a rich history and experience of practicing law in Grenada. The members of the team are competent and willing to assist you with your legal challenges."
+
+bios:
+  -
+    heading: "Tillman J. Thomas - Senior Partner"
+    image-url: "/images/tillman.jpg"
+    text: "Tillman attended Fordham University in New York from 1968 - 1973 where he obtained a Bachelor of Science (BSc) in Economics. He then attended the University of the West Indies and the Hugh Wooding Law School respectively where he pursued a Bachelor of Law (LLB) and the Certificate of Legal Education. He has a wealth of experience in Human Rights Litigation matters being a former member of the Caribbean Human Rights and Legal Aid Association. He is the longest practicing member of the team; it was his dream to establish a family practice."
+    image-location: "left"
+  -
+    heading: "Andre Thomas - Senior Partner"
+    image-url: "/images/andre.jpg"
+    text: "Andre holds a Bachelor’s degree in Political Science from Texas Southern University. He also attended the University of the West Indies and Hugh Wooding Law School where he attained a Bachelor of Law Degree  (LLB Hons) and Certificate in Legal Education. He has extensive experience in the practice of Criminal Law. It was under his management that the family practice was incorporated in the name of the deceased father of Tillman and Andre."
+    image-location: "right"
+  -
+    heading: "Rae T.J Thomas - Associate Lawyer"
+    image-url: "/images/rae.jpg"
+    text: "Rae attended the Baruch College of the City University of New York where she obtained a Bachelor of Business Administration in 2008. She then attended the University of the West Indies where she attained the Bachelor of Law Degree (LLB Hons) in 2012 and the Certificate in Legal Education from the Hugh Wooding Law School in 2014 after which she joined the firm."
+    image-location: "left" 

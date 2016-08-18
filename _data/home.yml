@@ -1,6 +1,6 @@
 values:
   - {url: 'images/icons/Trust.svg', text: 'TRUST', id: 'trust-icon'}
-  - {url: 'images/icons/Legacy.svg', text: 'LEGACY', id: 'service-icon'}
-  - {url: 'images/icons/Service.svg', text: 'SERVICE', id: 'legacy-icon'}
+  - {url: 'images/icons/Legacy.svg', text: 'LEGACY', id: 'legacy-icon'}
+  - {url: 'images/icons/Service.svg', text: 'SERVICE', id: 'service-icon'}
 
-about_us: 'Franco Chambers & Co. is a small family owned and operated firm providing a wide variety of legal services to clients. It is conveniently located on Ben Jones Street in the second largest town of Grenville and on Main Street Sauteurs in the most northern parish of the island of Grenada.  Franco Chambers is a full-service firm with a knowledgeable team that is fully prepared to assist you with all your legal problems. The attorneys at Franco Chambers consist of a team with a wide range of varying experiences; that team is committed to obtain consistent and effective results for your legal matters. From its predecessor’s inception in 1978 the firm has dedicated itself to providing quality, efficiency and competent legal services to all its clients.'
+about_us: 'Franco Chambers & Co. is a small family owned and operated firm providing a wide variety of legal services to clients. It is conveniently located on Ben Jones Street in the second largest town of Grenville and on Main Street Sauteurs in the most northern parish of the island of Grenada.  Franco Chambers is a full-service firm with a knowledgeable team that is fully prepared to assist you with all your legal problems. The attorneys at Franco Chambers consist of a team with a wide range of varying experiences; that team is committed to obtain consistent and effective results for your legal matters. From its predecessor’s inception in 1978 the firm has dedicated itself to providing quality, efficiency and competent legal services to all its clients.'

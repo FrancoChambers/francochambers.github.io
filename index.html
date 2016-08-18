@@ -1,6 +1,7 @@
 ---
 layout: default
 featured_image: '/images/banner-lawbooks.jpg'
+js: '/js/index.js'
 ---
 
 
@@ -12,22 +13,24 @@ featured_image: '/images/banner-lawbooks.jpg'
         {% for item in site.data.home.values %}
         <div class="col-xs-12 col-sm-4 value">
             <div class="heading centered-text"><h3>{{item.text}}</h3></div>
-            <div class="icon-center grow"><img class="icons" id="{{item.id}}" src="{{item.url}}"/></div>
+            <div class="icon-center grow"><img class="icons disabled" id="{{item.id}}" src="{{item.url}}"/></div>
         </div>
         {% endfor %}
+        <div class="content" id="value-text">
+        </div>
     </div>
 </div>
 
 <div class="container about-us">
     <div class="row is-flex">
         <div class="col-sm-4 no-right-padding no-left-padding">
-            <div class="about-us-img">
+            <div class="center-img background-yellow">
                 <img src="images/team-small.JPG"/>
             </div>
         </div>
         <div class="col-sm-8 border no-left-border small-no-top-border small-bottom-padding" >
             <div class="heading"><h3>About Us</h3></div>
-            <div class="content"><p class="text">{{site.data.home.about_us}}</p></div>
+            <div class="content justify-text"><p class="text">{{site.data.home.about_us}}</p></div>
         </div>
     </div>
 </div>
@@ -73,7 +76,7 @@ featured_image: '/images/banner-lawbooks.jpg'
         </div>
         
         <div class="col-xs-12 col-sm-4 hover-icon-link">
-            <a href="/about">
+            <a href="/who_we_are">
                 <div class="heading centered-text"><h3>OUR TEAM</h3></div>
                 <div class="icon-center svg">
                     <?xml version="1.0" encoding="UTF-8" standalone="no"?>

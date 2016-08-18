@@ -1,13 +1,13 @@
 content:
   -
-    text: "The Privacy Policy refers to information collected online from users on this website.  On this policy you can learn the type of information that is acceptable on the website, how we might use that information, how we protect that information and the choices you have with respect to your personal information."
+    text: "The Privacy Policy refers to information collected online from users of this website. This policy indicates the type of information that is acceptable on the website, how we may use and protect the information and your choices with respect to your personal information."
   -
     heading: "Acceptable Personal Information on the Website"
-    text: "If you choose to contact us through our Contact Us box on this website we ask that you only provide information such as your email address, name and phone number. Please do not submit any confidential, proprietary or sensitive personally identifiable information (e.g. Date of Birth, Driver's License, Bank Information, Credit Card, Financial Information or other sensitive information). If you submit any sensitive information you do so at your own risk and Franco Chambers will not be liable to you or responsible for consequences of your submission."
+    text: "If you choose to contact us through our Contact Us box on this website we ask that as a first step you only provide information such as your email address, name and phone number. Please do not submit any confidential, proprietary or sensitive personally identifiable information (e.g. Date of Birth, Driver's License, Bank Information, Credit Card No., Financial Information or other sensitive information). If you submit any sensitive information on the website you do so at your own risk and Franco Chambers will not be liable or responsible for the consequences of your action."
   -
     heading: "Web Server Logs"
-    upper-text: "For Franco Chambers records we may choose to monitor and track information about your visits to the site and save them electronically. Examples of the information we may collect include:"
-    lower-text: "This information will help us administer the website, its usage, protect the site and it's contents from inapropriate users which will ensure our users have a great experience. "
+    upper-text: "For our records Franco Chambers may choose to monitor and track information about your visits to our site and save them electronically. Examples of the information we may collect include:"
+    lower-text: "This information will help us to better administer the website and its usage and also protect the site and it's contents from inappropriate users and enhance the experience of our users."
     list:
       - {text: "Internet Protocol Address"}
       - {text: "Town/city, county/state, country/region from which you access the site"}
@@ -15,13 +15,13 @@ content:
       - {text: "The number of links you clicked within our site"}
   -
     heading: "Personal Information Protection"
-    text: "Franco Chambers takes appropriate security measures to help protect your information from accidental loss and unauthorized use. However we cannot guarantee that unauthorized persons will always be unable to defeat our security measures. Hence we strongly encourage that users adhere to our acceptable personal information guideline in the privacy policy."
+    text: "Franco Chambers will  take appropriate security measures to help protect your information from accidental loss and unauthorized use. However we cannot guarantee that unauthorized persons will always be unable to defeat our security measures. Hence we strongly encourage users to adhere to the personal information guideline that is set out in the privacy policy."
   -
     heading: "Access to your information"
-    upper-text: "Franco Chambers will not release your personal information to any unaffialiated parties except as follows:"
+    upper-text: "Franco Chambers guarantees that it will not release your personal information to any unaffiliated party except as follows:"
     list:
-      - {text: "If we are unable to assist with your needs but is aware of an unaffialiated attorney or firm that may be able to assist; you we may refer you and share information you provided with us to that party"}
-      - {text: "As required by law in a matter of public safety or policy"}
+      - {text: "If we are unable at any time to provide the services that you need but are aware of an unaffiliated attorney or firm that can assist you we may refer you but only share your information after you have provided written authorization for us so to do with that party or firm. "}
+      - {text: " This is a legal requirement by law in matters of public safety or policy."}
 
   -
-    text: "Please note you can always opt out of communication with Franco Chambers or change personal information at anytime. Contact via phone, contact box, email address or traditional mail to do so."
+    text: "Please note that you are free to discontinue communication with Franco Chambers or change personal information at anytime. This may be facilitated by telephone, Contact Us box, email or traditional mail."

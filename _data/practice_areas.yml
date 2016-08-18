@@ -1,9 +1,11 @@
 heading: "Practice Areas"
 list: 
-  - {title: "Conveyancing", text: " We handle all matters related to conveyancing such as transfer of property from one person to another by sale, gift or inherited property "}
-  - {title: "Criminal", text: "We provide representation for persons who are charged for criminal offences before the criminal court  "}
-  - {title: "Family", text: "We advise clients on Divorce, Adoption, Maintenance, Domestic violence and other Family Law matters  "}
-  - {title: "Litigation", text: "We handle matters to be decided by the Court where contentious matters cannot be resolved amicably  "}
-  - {title: "Probate", text: "When someone dies with property in his/her name, that property could only be transferred by way of probate.  The court appoints an Executor (if the person has a Will) or Administrator (if the person does not have a Will) to deal with the property of the deceased.  "}
-  - {title: "Real", text: "The buying and selling of property. We assist persons both here and abroad with property here in Grenada, who wish to sell that property.  "}
-  - {title: "Immigration", text: "We assist with Immigration matters as it relates to Immigration Laws and processes in Grenada."}
+  - {title: "Conveyancing", text: "That is, the Transfer of property from one person to another through sale, gift or property inherited from a relative or benefactor. "}
+  - {title: "Criminal", text: "Provides representation for persons who are charged with criminal offences. "}
+  - {title: "Civil Matters", text: "Provides representation for persons who must appear in civil suits before the  Court. "}
+  - {title: "Family Law", text: "Advise and represent clients in Divorce, Adoption, Maintenance, Domestic violence, Child custody and protection and other Family Law related matters. "}
+  - {title: "Litigation", text: "Represent clients on matters that cannot be decided by arbitration and therefore must be settled by the Court.  "}
+  - {title: "Probate", text: "Apply to the Court to Probate the Will of deceased persons and for Administration of the estate of deceased persons who did not make a Will. "}
+  - {title: "Real Estate", text: "Act as Agents for clients who are based either locally or abroad and wish to  buy and or sell property located in the State of Grenada, and that includes both Carriacou and Petite Martinique. "}
+  - {title: "Incorporation/Registration of Companies and Cooperatives", text: "Prepare the necessary documentation and apply to the Registrar of Companies to set up companies on behalf of clients. "}
+  - {title: "Contractual Agreements", text: "Prepare various types of contract documents for signature by the parties that are engaged in the contract. "}
