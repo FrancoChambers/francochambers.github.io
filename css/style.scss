@@ -1,5 +1,6 @@
 ---
 ---
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
 @import '../_sass/bootstrap';
 @import '../_sass/syntax-highlighting';
 
@@ -294,6 +295,7 @@ input, textarea{
 }
 
 /* navbar */
+
 .navbar.franco-navbar {
     background-color: $franco-brown;
     border-color: $franco-yellow;
@@ -303,6 +305,9 @@ input, textarea{
 
     .navbar-brand{
         color: $franco-yellow;
+        font-family: 'Poiret One', cursive;
+        font-size: 40px;
+        font-weight: 600;
         
         &:hover, &:focus{
             color: $franco-yellow;
@@ -637,4 +642,12 @@ pre {
 
 .categories {
      margin-top: 60px;
+}
+
+/*NavBar Logo */
+
+.logo{
+    height: 60px;
+    position: relative;
+    bottom: 20px;
 }
