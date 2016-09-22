@@ -1,12 +1,27 @@
 {% if page.featured_image or page.featured_video_id %}
+    <div class="section-divider-container push container-fluid">
+        <div class="row">
+            <div class="col-xs-10 section-divider background-grey">
+            </div>
+            <div class="col-xs-2 section-divider background-red">
+            </div>
+        </div>
+    </div>
     <div class="topper">
         {% if page.featured_image %}
         <span class="img" style="background-image: url('{{ page.featured_image }}');">
         {% endif %}
-
         {% if page.featured_video_id %}
         <iframe src="https://www.youtube.com/embed/{{ page.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
         {% endif %}
+    </div>
+    <div class="section-divider-container containter-fluid">
+        <div class="row">
+            <div class="col-xs-2 section-divider background-red">
+            </div>
+            <div class="col-xs-10 section-divider background-grey">
+            </div>
+        </div>
     </div>
 {% else %}
     <div class="push"></div>

@@ -14,6 +14,12 @@ $base-padding: 20px;
 $base-margin: 20px;
 $dropDown: false;
 
+$franco-grey: #484848;
+$franco-dark-blue: #52acc8;
+$franco-blue: #0086a4;
+$franco-light-blue: #70bbcc;
+$franco-red: #ff3c3d;
+$franco-pink: #ee646c;
 
 %oswald { font-family: 'Oswald', sans-serif; }
 %roboto { font-family: 'Roboto Condensed', sans-serif; }
@@ -21,7 +27,7 @@ $dropDown: false;
 
 body {
     @extend %roboto;
-    background-color: $franco-brown;
+    background-color: white;
     font-size: 18px;
     line-height: 30px;
     padding-top: 0px;
@@ -37,6 +43,63 @@ p, li{
 
 .practice-area-list-item{
     padding-bottom: $base-padding;
+}
+
+.section-divider-container{
+    .section-divider{
+        height: 10px;
+    }
+}
+
+.block{
+    height: 75px;
+}
+
+.icon-block{
+    height: 60px;
+}
+
+.color-dark-blue{
+    color: $franco-dark-blue;
+}
+
+.background-red{
+    background-color: $franco-red;
+}
+
+.background-pink{
+    background-color: $franco-pink;
+}
+
+.background-grey{
+    background-color: $franco-grey;
+}
+
+.background-blue{
+    background-color: $franco-blue;
+}
+
+.background-light-blue{
+    background-color: $franco-light-blue;
+}
+
+.background-dark-blue{
+    background-color: $franco-dark-blue;
+}
+
+
+.vertical-center {
+  min-height: 75px;
+  
+  display: flex;
+  align-items: center;
+}
+
+.icon-title{
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: $base-padding;
+    padding-right: $base-padding;
 }
 
 section, header, footer, main, article, nav, aside { position: relative; }
@@ -65,13 +128,13 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
     }
 }
 .heading{
-    color: $franco-yellow;
+    color: $franco-dark-blue;
     padding-bottom: $base-padding;
 }
 
 .content{
     p.text{
-        color: $franco-yellow;
+        color: $franco-dark-blue;
     }
 }
 
@@ -91,7 +154,7 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
 }
 
 .icons {
-    color: $franco-yellow;
+    color: $franco-dark-blue;
     width: 100px;
     height: 100px;
     cursor: pointer;
@@ -201,6 +264,10 @@ svg{
       }
     }
 
+    .small-center{
+        margin: auto;
+    }
+
     .small-bottom-padding{
         padding-bottom: $base-padding; 
     } 
@@ -297,20 +364,20 @@ input, textarea{
 /* navbar */
 
 .navbar.franco-navbar {
-    background-color: $franco-brown;
-    border-color: $franco-yellow;
+    background-color: white;
+    border-color: $franco-dark-blue;
     padding-right: $base-padding;
     padding-top: $base-padding;
     padding-bottom: $base-padding;
 
     .navbar-brand{
-        color: $franco-yellow;
+        color: $franco-dark-blue;
         font-family: 'Poiret One', cursive;
         font-size: 40px;
         font-weight: 600;
         
         &:hover, &:focus{
-            color: $franco-yellow;
+            color: $franco-dark-blue;
         }
     }
 
@@ -321,13 +388,13 @@ input, textarea{
     .navbar-nav{
         > li{
             > a{
-                color: $franco-yellow; 
+                color: $franco-dark-blue; 
                 &:hover,  &:focus {
-          color: $franco-brown;
-          background-color: $franco-yellow; }}
+          color: white;
+          background-color: $franco-dark-blue; }}
       @if $dropDown {
         > .dropdown-menu {
-          background-color: $franco-brown;
+          background-color: white;
           > li {
             > a {
               color: $franco-yellow;
@@ -347,31 +414,31 @@ input, textarea{
         background-color: $franco-yellow; }}
     > .open {
       > a, > a:hover, > a:focus {
-        color: $franco-brown;
-        background-color: $franco-yellow; }}}
+        color: $franco-dark-blue;
+        background-color: white; }}}
   .navbar-toggle {
-    border-color: $franco-yellow;
+    border-color: $franco-dark-blue;
     &:hover, &:focus {
-      background-color: $franco-brown; }
+      background-color: white; }
     .icon-bar {
-      background-color: $franco-yellow; }}
+      background-color: $franco-dark-blue; }}
   .navbar-collapse,
   .navbar-form {
-    border-color: $franco-yellow; }
+    border-color: $franco-dark-blue; }
   .navbar-link {
-    color: $franco-yellow;
+    color: $franco-dark-blue;
     &:hover {
-      color: $franco-brown; }}}
+      color: white; }}}
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu {
     > li > a {
-      color: $franco-yellow;
+      color: $franco-dark-blue;
       &:hover, &:focus {
-        color: $franco-brown; }}
+        color: white; }}
     > .active {
       > a, > a:hover, > a:focus {
-        color: $franco-brown;
-        background-color: $franco-yellow; }}}
+        color: white;
+        background-color: $franco-dark-blue; }}}
 }
 
 
@@ -571,7 +638,6 @@ aside {
 }
 
 .topper {
-    margin-top: 90px;
     height: 500px;
     position: relative;
 
