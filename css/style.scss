@@ -735,6 +735,11 @@ pre {
     .small-background-blue{
         background-color: $franco-blue;
     }
+
+    .navbar-brand > img {
+        display: block;
+        height: 45px;
+    }
 }
 
 /*Who we are page*/

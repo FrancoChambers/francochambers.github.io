@@ -1,11 +1,7 @@
 # Site Settings
 title: 'Franco Chambers & Co.'
 logo_url: '/images/icons/FCWebsitelogo.png'
-description: 'An Open-Source Bootstrap 3 Jekyll Theme by Scotch'
-url: 'http://scotch-io.github.io' # the base hostname & protocol for your site
 footer_text: 'Copyright &copy; Franco Chambers 2016, All Rights Reserved.'
-
-# Admin Settings
 admin_name: 'Raman Walwyn-Venugopal'
 admin_email: 'raman@karibfusion.com'
 
