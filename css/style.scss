@@ -15,8 +15,8 @@ $base-margin: 20px;
 $dropDown: false;
 
 $franco-grey: #484848;
-$franco-dark-blue: #52acc8;
-$franco-blue: #0086a4;
+$franco-dark-blue: #0086a4;
+$franco-blue: #52acc8;
 $franco-light-blue: #70bbcc;
 $franco-red: #ff3c3d;
 $franco-pink: #ee646c;
@@ -34,11 +34,30 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 p, li{
-    color: $franco-yellow;
+    color: $franco-dark-blue;
 }
 
 .list-title{
     font-size: 20px;
+}
+
+.padding{
+    padding: $base-padding;
+}
+
+.color-white{
+    color: white;
+    &.heading{
+        color: white;
+    }
+}
+
+.color-blue{
+    color: $franco-blue;
+}
+
+.full-width{
+    width: 100%;
 }
 
 .practice-area-list-item{
@@ -615,16 +634,17 @@ aside {
 }
 
 .site-footer {
-    background-color: $franco-brown;
-    color: $franco-yellow;
+    background-color: $franco-blue;
+    color: white;
     padding-top: $base-padding;
     padding-bottom: $base-padding;
 
     p{
         margin-bottom: 0px;
+        color: white;
     }
     a{
-        color: $franco-yellow;
+        color: white;
         cursor: pointer;
     }
 }
@@ -638,8 +658,13 @@ aside {
 }
 
 .topper {
-    height: 500px;
+    min-height: 500px;
     position: relative;
+
+    &.about-us-section{
+        clear: both;
+        overflow: hidden;
+    }
 
     .img {
         position: absolute;
@@ -651,6 +676,14 @@ aside {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50%;
+    }
+
+    .blue-overlay{
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: rgba(82,172,200,0.5);
+        z-index: 100;
     }
 
     iframe {
@@ -677,7 +710,11 @@ pre {
 
 @media only screen and (max-width : 480px) {
     .tile .featurette, .topper {
-        height: 300px;
+        min-height: 300px;
+
+        &.about-us-section{
+            min-height: 720px;
+        }
     }
 
     h1.special,
@@ -693,6 +730,10 @@ pre {
     .tile .excerpt {
         font-size: 22px;
         line-height: 35px;
+    }
+
+    .small-background-blue{
+        background-color: $franco-blue;
     }
 }
 
@@ -716,4 +757,33 @@ pre {
     height: 60px;
     position: relative;
     bottom: 20px;
+}
+
+// INDEX PAGE
+
+.home-page-content{
+    // padding-bottom: $base
+}
+#about-us-heading{
+    padding-top: 40px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#about-us-content{
+    margin: auto;
+    max-width: 700px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.values{
+    cursor: pointer;
+}
+
+.value-content{
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: $base-padding;
 }

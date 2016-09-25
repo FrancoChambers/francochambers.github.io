@@ -10,12 +10,13 @@
     <div class="topper">
         {% if page.featured_image %}
         <span class="img" style="background-image: url('{{ page.featured_image }}');">
+        <span class="{{page.featured_class}}"></span></span>
         {% endif %}
         {% if page.featured_video_id %}
         <iframe src="https://www.youtube.com/embed/{{ page.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
         {% endif %}
     </div>
-    <div class="section-divider-container containter-fluid">
+    <div class="section-divider-container container-fluid">
         <div class="row">
             <div class="col-xs-2 section-divider background-red">
             </div>
