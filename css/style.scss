@@ -9,7 +9,7 @@ $scotch-primary: rgb(255, 69, 69);
 $scotch-secondary: #FF7B7B;
 $franco-brown: #432d25;
 $franco-yellow:  #fff6a2;
-$franco-placeholder: #B7B074;
+$franco-placeholder: #ee646c;
 $base-padding: 20px;
 $base-margin: 20px;
 $dropDown: false;
@@ -261,7 +261,7 @@ svg{
 }
 
 .border{
-    border: 0.5px solid $franco-yellow;
+    border: 0.5px solid $franco-dark-blue;
     &.no-left-border{
         border-left: none;
     }
@@ -273,10 +273,10 @@ svg{
 @media only screen and (max-width: 768px) {
     .border{
       &.no-left-border{
-        border-left: 0.5px solid $franco-yellow;
+        border-left: 0.5px solid $franco-dark-blue;
         }
       &.no-right-border{
-        border-right: 0.5px solid $franco-yellow;
+        border-right: 0.5px solid $franco-dark-blue;
       }
       &.small-no-top-border{
         border-top: none;
@@ -336,10 +336,10 @@ svg{
 
 input, textarea{
 
-    background-color: $franco-brown;
+    background-color: white;
     border-width: 1px;
-    border-color: $franco-yellow;
-    color: $franco-yellow;
+    border-color: $franco-dark-blue;
+    color: $franco-dark-blue;
     font-size: 20px;
     margin-bottom: $base-margin
 }
@@ -350,13 +350,13 @@ input, textarea{
 
 .send-btn{
     height: 40px;
-    color: $franco-yellow;
+    color: $franco-dark-blue;
     margin-top: $base-margin;
     margin-bottom: $base-margin;
 
     &:hover{
-    background-color: $franco-yellow;
-    color: $franco-brown;
+    background-color: $franco-dark-blue;
+    color: white;
     }
 }
 
