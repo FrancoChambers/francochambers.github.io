@@ -6,15 +6,19 @@ featured_image: '/images/banner-lawbooks.jpg'
 
 <div class="container">
     <div class="row">
-        <div class="heading"><h3>{{ site.data.practice_areas.heading }}</h3></div>
+        <div class="heading centered-text"><h3>{{ site.data.practice_areas.heading }}</h3></div>
         <div class="content">
-            <ul>
                 {% for item in site.data.practice_areas.list %}
-                    <li class="practice-area-list-item"><span class="list-title"><strong>{{item.title}}</strong></span>
-                        <br/>{{item.text}}
-                    </li>
+                    <div class="practice-area-list-item"><span class="list-title" data-toggle="collapse" data-target="#{{item.id}}"><strong>{{item.title}}</strong></span>
+                        <br/> <span id="{{item.id}}" class="collapse color-blue"> {{item.text}} </span>
+                        <div class="row divider-padding">
+                            <div class="col-xs-2 section-divider background-red divider-height">
+                            </div>
+                            <div class="col-xs-10 section-divider background-grey divider-height">
+                            </div>
+                        </div>
+                    </div>
                 {% endfor%} 
-            </ul>
         </div>
     </div>
     

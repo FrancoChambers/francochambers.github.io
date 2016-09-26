@@ -1,11 +1,11 @@
 heading: "Practice Areas"
 list: 
-  - {title: "Conveyancing", text: "That is, the Transfer of property from one person to another through sale, gift or property inherited from a relative or benefactor. "}
-  - {title: "Criminal", text: "Provides representation for persons who are charged with criminal offences. "}
-  - {title: "Civil Matters", text: "Provides representation for persons who must appear in civil suits before the  Court. "}
-  - {title: "Family Law", text: "Advise and represent clients in Divorce, Adoption, Maintenance, Domestic violence, Child custody and protection and other Family Law related matters. "}
-  - {title: "Litigation", text: "Represent clients on matters that cannot be decided by arbitration and therefore must be settled by the Court.  "}
-  - {title: "Probate", text: "Apply to the Court to Probate the Will of deceased persons and for Administration of the estate of deceased persons who did not make a Will. "}
-  - {title: "Real Estate", text: "Act as Agents for clients who are based either locally or abroad and wish to  buy and or sell property located in the State of Grenada, and that includes both Carriacou and Petite Martinique. "}
-  - {title: "Incorporation/Registration of Companies and Cooperatives", text: "Prepare the necessary documentation and apply to the Registrar of Companies to set up companies on behalf of clients. "}
-  - {title: "Contractual Agreements", text: "Prepare various types of contract documents for signature by the parties that are engaged in the contract. "}
+  - {id: "conveyancing", title: "Conveyancing", text: "That is, the Transfer of property from one person to another through sale, gift or property inherited from a relative or benefactor. "}
+  - {id: "criminal", title: "Criminal", text: "Provides representation for persons who are charged with criminal offences. "}
+  - {id: "civil", title: "Civil Matters", text: "Provides representation for persons who must appear in civil suits before the  Court. "}
+  - {id: "family", title: "Family Law", text: "Advise and represent clients in Divorce, Adoption, Maintenance, Domestic violence, Child custody and protection and other Family Law related matters. "}
+  - {id: "litigation", title: "Litigation", text: "Represent clients on matters that cannot be decided by arbitration and therefore must be settled by the Court.  "}
+  - {id: "probate", title: "Probate", text: "Apply to the Court to Probate the Will of deceased persons and for Administration of the estate of deceased persons who did not make a Will. "}
+  - {id: "real", title: "Real Estate", text: "Act as Agents for clients who are based either locally or abroad and wish to  buy and or sell property located in the State of Grenada, and that includes both Carriacou and Petite Martinique. "}
+  - {id: "incorporation", title: "Incorporation/Registration of Companies and Cooperatives", text: "Prepare the necessary documentation and apply to the Registrar of Companies to set up companies on behalf of clients. "}
+  - {id: "contractual", title: "Contractual Agreements", text: "Prepare various types of contract documents for signature by the parties that are engaged in the contract. "}

@@ -39,6 +39,7 @@ p, li{
 
 .list-title{
     font-size: 20px;
+    color: $franco-dark-blue;
 }
 
 .padding{
@@ -791,4 +792,14 @@ pre {
     max-width: 800px;
     margin: 0 auto;
     padding: $base-padding;
+}
+
+//CONTACT US
+
+.divider-height{
+    height: 5px;
+}
+
+.divider-padding{
+    padding: 0px 15px 0px 15px;
 }
