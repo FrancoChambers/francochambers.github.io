@@ -53,6 +53,10 @@ p, li{
     padding: $base-padding;
 }
 
+.side-padding{
+    padding: $base-padding;
+}
+
 .color-white{
     color: white;
     &.heading{
@@ -503,7 +507,7 @@ h1.special {
             position: absolute;
             display: block;
             height: 1px;
-            background: $franco-yellow;
+            background: $franco-dark-blue;
             width: 99999999px;
             top: 50%;
             transform: translateY(-50%);
