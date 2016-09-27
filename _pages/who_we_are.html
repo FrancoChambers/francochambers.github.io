@@ -5,7 +5,7 @@ featured_image: '/images/banner-lawbooks.jpg'
 ---
 
 {% for item in site.data.who_we_are.content%}
-<div class="container border categories">
+<div class="container side-padding border categories">
     <div class="row">
         <div class="col-sm-12 heading centered-text"><h3>{{ item.heading }}</h3></div>
         <div class="content">
@@ -15,7 +15,7 @@ featured_image: '/images/banner-lawbooks.jpg'
 </div>
 {% endfor %}
 
-<div class="container border categories">
+<div class="container side-padding border categories">
     <div class="row">
         <div class="col-sm-12 heading centered-text"><h3>{{ site.data.who_we_are.the_team.heading }}</h3></div>
             <div class="the_team">
@@ -28,7 +28,7 @@ featured_image: '/images/banner-lawbooks.jpg'
 
 
     {% for item in site.data.who_we_are.bios %}
-        <div class="container">
+        <div class="container side-padding">
             <div class="row is-flex">
                 {% if item.image-location == 'left' %}
                     <div class="col-sm-4">
