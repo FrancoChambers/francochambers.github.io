@@ -1,63 +1,85 @@
 ---
 layout: default
 permalink: /who_we_are/
-featured_image: '/images/banner-lawbooks.jpg'
+featured_image: '/images/welcome-stone.png'
 ---
 
 {% for item in site.data.who_we_are.content%}
-<div class="container side-padding border categories">
-    <div class="row">
-        <div class="col-sm-12 heading centered-text"><h3>{{ item.heading }}</h3></div>
-        <div class="content">
-                <p class="text base-padding {{item.format}}">{{ item.text }}</p>
-       	</div>
-    </div>  
-</div>
-{% endfor %}
+<div class="container">
+        <div class="row">
+            <div class="col-sm-12 heading centered-text"><h1>{{ item.heading }}</h1></div>
+            <div class="content">
+                    <p class="text base-padding {{item.format}}">{{ item.text }}</p>
+            </div>
+        </div>  
+    {% endfor %}
 
-<div class="container side-padding border categories">
+    <div class="row divider-padding  no-padding-divider">
+        <div class="col-xs-2 section-divider background-red divider-height">
+        </div>
+        <div class="col-xs-10 section-divider background-grey divider-height">
+        </div>
+    </div>
+</div>
+
+<div class="container">
     <div class="row">
-        <div class="col-sm-12 heading centered-text"><h3>{{ site.data.who_we_are.the_team.heading }}</h3></div>
+        <div class="col-sm-12 heading centered-text"><h1>{{ site.data.who_we_are.the_team.heading }}</h1></div>
             <div class="the_team">
             	<p class="text justify-text base-padding">{{ site.data.who_we_are.the_team.intro-text }}</p>
             </div>
     </div>
 
-
-
-
-
     {% for item in site.data.who_we_are.bios %}
-        <div class="container side-padding">
-            <div class="row is-flex">
-                {% if item.image-location == 'left' %}
-                    <div class="col-sm-4">
-                        <div class="center-img">
-                            <img class="bio-img" src="{{item.image-url}}"/>
-                        </div>
-                    </div>                       
-                    <div class="col-sm-8">
-                        <div class="heading base-padding"><h3>{{item.heading}}</h3></div>
-                        <div class="bio">
-                            <p class="text base-padding justify-text">{{ item.text }}</p>
-                        </div>
+    <div class="container">
+        <div class="row is-flex">
+            {% if item.image-location == 'left' %}
+                <div class="col-sm-4">
+                    <div class="center-img">
+                        <img class="bio-img" src="{{item.image-url}}"/>
                     </div>
+                </div>                       
+                <div class="col-sm-8">
+                    <div class="heading base-padding"><h3>{{item.heading}}</h3></div>
+                    <div class="bio">
+                        <p class="text base-padding justify-text">{{ item.text }}</p>
+                    </div>
+                </div>
 
-                {% else %}
-                    <div class="col-sm-4 col-sm-push-8">
-                        <div class="center-img">    
-                            <img class="bio-img" src="{{item.image-url}}"/>
-                        </div>
+            {% else %}
+                <div class="col-sm-4 col-sm-push-8">
+                    <div class="center-img">    
+                        <img class="bio-img" src="{{item.image-url}}"/>
                     </div>
-                    <div class="col-sm-8 col-sm-pull-4">
-                        <div class="heading base-padding"><h3>{{item.heading}}</h3></div>
-                        <div class="bio">
-                            <p class="text base-padding justify-text">{{ item.text }}</p>
-                        </div>
-                    </div>        
-                {% endif %}            
-            </div>
+                </div>
+                <div class="col-sm-8 col-sm-pull-4">
+                    <div class="heading base-padding"><h3>{{item.heading}}</h3></div>
+                    <div class="bio">
+                        <p class="text base-padding justify-text">{{ item.text }}</p>
+                    </div>
+                </div>        
+            {% endif %}            
         </div>
+    </div>
     {% endfor %}
+
+    <div class="row divider-padding">
+        <div class="col-xs-2 section-divider background-red divider-height">
+        </div>
+        <div class="col-xs-10 section-divider background-grey divider-height">
+        </div>
+    </div>
+
+    {% for item in site.data.who_we_are.evolution%}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 heading centered-text"><h1>{{ item.heading }}</h1></div>
+            <div class="content base-padding">
+                    <p class="text {{item.format}}">{{ item.text }}</p>
+            </div>
+        </div>  
+    </div>
+    {% endfor %}
+
 </div>
 

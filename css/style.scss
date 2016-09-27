@@ -37,6 +37,7 @@ p, li{
     color: $franco-dark-blue;
 }
 
+
 .list-title{
     font-size: 20px;
     color: $franco-dark-blue;
@@ -50,11 +51,6 @@ p, li{
 
 .padding{
     padding: $base-padding;
-}
-
-.side-padding{
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .color-white{
@@ -494,7 +490,7 @@ h1.special {
     font-size: 69px;
     line-height: 69px;
     font-weight: 700;
-    color: $franco-yellow;
+    color: $franco-dark-blue;
 
     span {
         display: inline-block;
@@ -757,16 +753,13 @@ pre {
 /*Who we are page*/
 
 .bio-img{
-    border-radius: 50%;
+    border-radius: 0%;
     display: flex;
     align-items: center;
-    padding: $base-padding;
+    border: 5px solid $franco-dark-blue;
     
 }
 
-.categories {
-     margin-top: 60px;
-}
 
 /*NavBar Logo */
 
