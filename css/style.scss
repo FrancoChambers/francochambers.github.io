@@ -40,6 +40,7 @@ p, li{
 .list-title{
     font-size: 20px;
     color: $franco-dark-blue;
+    cursor: pointer;
 
     img{
         height: 15px;
@@ -49,6 +50,11 @@ p, li{
 
 .padding{
     padding: $base-padding;
+}
+
+.side-padding{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .color-white{
@@ -807,4 +813,18 @@ pre {
 
 .divider-padding{
     padding: 0px 15px 0px 15px;
+}
+
+// Practice Areas
+
+.practice-area-content{
+    margin-bottom: $base-margin;
+    max-width: 900px;
+}
+
+.rotated {
+    position: relative;
+    bottom: 5px;
+    left: 11px;
+    transform: rotate(180deg);
 }

@@ -2,19 +2,20 @@
 layout: default
 permalink: /practice_areas/
 featured_image: '/images/banner-lawbooks.jpg'
+js: '/js/practice_areas.js'
 ---
 
-<div class="container">
+<div class="container side-padding">
     <div class="row">
         <div class="heading centered-text"><h3>{{ site.data.practice_areas.heading }}</h3></div>
         <div class="content">
                 {% for item in site.data.practice_areas.list %}
                     <div class="practice-area-list-item">
-                        <span class="list-title" data-toggle="collapse" data-target="#{{item.id}}"> <strong>{{item.title}}</strong>
+                        <div id="{{item.id}}-collapser" class="list-title" data-toggle="collapse" data-target="#{{item.id}}"> <strong>{{item.title}}</strong>
                             <img src="/images/icons/menu-down.png">
-                        </span>
+                        </div>
                         <br/> 
-                        <span id="{{item.id}}" class="collapse color-blue"> {{item.text}} </span>
+                        <div id="{{item.id}}" class="collapse color-blue practice-area-content"> {{item.text}} </div>
                         <div class="row divider-padding">
                             <div class="col-xs-2 section-divider background-red divider-height">
                             </div>
