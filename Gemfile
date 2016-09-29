@@ -2,4 +2,5 @@ source 'https://rubygems.org'
 
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
-gem 'kramdown'
+gem 'kramdown' , '1.11.1'
+gem 'jekyll'
