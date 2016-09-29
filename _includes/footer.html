@@ -2,6 +2,42 @@
     <footer class="site-footer">
         <div class="container">
             <div class="row">
+                <div class="col-sm-3">
+                    <ul>
+                    <h2> Locations </h2>
+                    {% for item in site.data.global.branch %}
+                        <li class="color-white"> {{item.text}} </li>
+                    {% endfor%}
+                    </ul>
+                    <ul>
+                    {% for item in site.data.global.branch_2 %}
+                        <li class="color-white"> {{item.text}} </li>
+                    {% endfor%}
+                    </ul>
+                </div>
+                <div class="col-sm-6 centered-text"><h2>Request a Consultation</h2>
+                    <div class="content contact-form">
+                        <form action="https://formspree.io/info@francochambers.com"  method="POST" id='consultform2'>
+                            <input class= "space-padding col-xs-12 col-sm-5 footer_input" type="text" name="name" placeholder="Your name"/>
+                            <input class= "space-padding col-xs-12 col-sm-5 col-sm-offset-1 footer_input" type="email" name="_replyto" placeholder="Your Email"/>
+                            <textarea class="col-xs-11 footer_page_box" name="message" form="consultform" placeholder="Enter your text here.."></textarea>
+                            <input type="hidden" name="_next" value="/form_response"/>
+                            <input type="hidden" name="_subject" value="New Consultation requested" />
+                            <input type="text" name="_gotcha" style="display:none" />
+                            <input class="send-btn2 col-xs-12 col-sm-4 col-sm-offset-4 no-padding" type="submit" value="SEND"/>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <ul>
+                    <h2> Site Map </h2>
+                    {% for item in site.data.nav.main %}
+                        <li><a href="{{item.url}}"> {{item.text}} </a></li>
+                    {% endfor%}
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-12">
                     <p class="centered-text">
                     {{ site.data.global.footer_text }}

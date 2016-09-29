@@ -10,6 +10,7 @@ $scotch-secondary: #FF7B7B;
 $franco-brown: #432d25;
 $franco-yellow:  #fff6a2;
 $franco-placeholder: #ee646c;
+$franco-footer-text: #ffffff;
 $base-padding: 20px;
 $base-margin: 20px;
 $dropDown: false;
@@ -35,6 +36,10 @@ body {
 }
 p, li{
     color: $franco-dark-blue;
+}
+
+.white-text {
+    color: #ffffff;
 }
 
 
@@ -346,12 +351,22 @@ svg{
     flex-direction: column;
 }
 
-input, textarea{
+.input_text_box, .contact_page_box{
 
     background-color: white;
     border-width: 1px;
     border-color: $franco-dark-blue;
     color: $franco-dark-blue;
+    font-size: 20px;
+    margin-bottom: $base-margin
+}
+
+.footer_input, .footer_page_box{
+
+    background-color: $franco-blue;
+    border-width: 1px;
+    border-color: white;
+    color: white;
     font-size: 20px;
     margin-bottom: $base-margin
 }
@@ -365,10 +380,25 @@ input, textarea{
     color: $franco-dark-blue;
     margin-top: $base-margin;
     margin-bottom: $base-margin;
+    background-color: white;
+    box-shadow: none;
 
     &:hover{
     background-color: $franco-dark-blue;
     color: white;
+    }
+}
+
+.send-btn2{
+    height: 40px;
+    background-color: $franco-blue;
+    color: $franco-footer-text;
+    margin-top: $base-margin;
+    margin-bottom: $base-margin;
+
+    &:hover{
+    background-color: white;
+    color: $franco-dark-blue;
     }
 }
 
@@ -377,20 +407,58 @@ input, textarea{
     padding-bottom: $base-padding;
 }
 
-::-webkit-input-placeholder {
-   color: $franco-placeholder;
+#consultform{
+
+    ::-webkit-input-placeholder {
+       color: $franco-placeholder;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       color: $franco-placeholder;  
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: $franco-placeholder;  
+    }
+
+    :-ms-input-placeholder {  
+       color: $franco-placeholder;  
+    }
+
 }
 
-:-moz-placeholder { /* Firefox 18- */
-   color: $franco-placeholder;  
+#consultform2{
+
+    ::-webkit-input-placeholder {
+       color: $franco-footer-text;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       color: $franco-footer-text;  
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: $franco-footer-text;  
+    }
+
+    :-ms-input-placeholder {  
+       color: $franco-footer-text;  
+    }
+
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-   color: $franco-placeholder;  
+/* footer */
+
+.no-padding {
+    margin-top: 0px;
 }
 
-:-ms-input-placeholder {  
-   color: $franco-placeholder;  
+ul {
+    list-style: none;
+}
+
+.padding-right {
+    padding-right: 20px;
 }
 
 /* navbar */
@@ -413,9 +481,6 @@ input, textarea{
         }
     }
 
-    .navbar-text{
-        color: $franco-brown;
-    }
 
     .navbar-nav{
         > li{

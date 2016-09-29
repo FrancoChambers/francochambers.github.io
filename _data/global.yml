@@ -4,4 +4,12 @@ logo_url: '/images/icons/FCWebsitelogo.png'
 footer_text: 'Copyright &copy; Franco Chambers 2016, All Rights Reserved.'
 admin_name: 'Raman Walwyn-Venugopal'
 admin_email: 'raman@karibfusion.com'
-
+branch: 
+  - text: "Ben Jones Street,"
+  - text: "Grenville,"
+  - text: "Grenada W.I"
+branch_2:
+  - text: "Main Street,"
+  - text: "Sauteurs,"
+  - text: "Grenada W.I"
+  
