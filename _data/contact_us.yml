@@ -5,7 +5,7 @@ branch1-content:
   - { url: "/images/icons/mobile.png" , text: "1-473-403-8594" }
   - { url: "/images/icons/world.png" , text: "1-917-524-1280" }
   - { url: "/images/icons/fax.png" , text: "1-473-438-5724" }
-  - { url: "/images/icons/email.png" , text: "francochambers@gmail.com" }
+  - { url: "/images/icons/email.png" , text: "info@francochambers.com" }
   - { url: "/images/icons/location.png" , text: "Ben Jones St., Grenville, St.Andrew, Grenada" }
 
 branch2-heading: 'Our Sauteurs Branch'
@@ -13,7 +13,7 @@ branch2-heading: 'Our Sauteurs Branch'
 branch2-content:
   - { url: "/images/icons/phone2.png" , text: "1-473-442-2835"} 
   - { url: "/images/icons/mobile.png" , text: "1-473-404-7684"} 
-  - { url: "/images/icons/email.png" , text: "francochambers@gmail.com"} 
+  - { url: "/images/icons/email.png" , text: "info@francochambers.com"} 
   - { url: "/images/icons/location.png" , text: "Main St., Sauteurs, St. Patrick, Grenada"} 
 
 
