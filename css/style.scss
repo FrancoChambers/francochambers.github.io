@@ -135,6 +135,9 @@ p, li{
     padding-right: $base-padding;
 }
 
+#footer-contact{
+    min-height: 200px;
+}
 section, header, footer, main, article, nav, aside { position: relative; }
 a {
     outline: none !important;
@@ -894,3 +897,4 @@ pre {
     left: 11px;
     transform: rotate(180deg);
 }
+
