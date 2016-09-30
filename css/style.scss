@@ -353,19 +353,21 @@ svg{
     background-color: white;
     border-width: 1px;
     border-color: $franco-dark-blue;
+    border-style: solid;
     color: $franco-dark-blue;
     font-size: 20px;
-    margin-bottom: $base-margin
+    margin-bottom: $base-margin;
 }
 
 .footer_input, .footer_page_box{
 
     background-color: $franco-blue;
     border-width: 1px;
+    border-style: solid;
     border-color: white;
     color: white;
     font-size: 20px;
-    margin-bottom: $base-margin
+    margin-bottom: $base-margin;
 }
 
 .message-box{
@@ -374,6 +376,8 @@ svg{
 
 .send-btn{
     height: 40px;
+    border-style: solid;
+    border-color: $franco-dark-blue;
     color: $franco-dark-blue;
     margin-top: $base-margin;
     margin-bottom: $base-margin;
@@ -389,6 +393,8 @@ svg{
 .send-btn2{
     height: 40px;
     background-color: $franco-blue;
+    border-color: white;
+    border-style: solid;
     color: $franco-footer-text;
     margin-top: $base-margin;
     margin-bottom: $base-margin;
