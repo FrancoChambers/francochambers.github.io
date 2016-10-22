@@ -339,7 +339,7 @@ svg{
     padding-bottom: 99999px;
 }
 
-.row.is-flex {
+.is-flex {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -349,7 +349,7 @@ svg{
     flex-wrap: wrap;
 }
 
-.row.is-flex > [class*='col-'] {
+.is-flex > [class*='col-'] {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
