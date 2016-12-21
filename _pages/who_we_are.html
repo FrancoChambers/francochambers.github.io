@@ -2,17 +2,17 @@
 layout: default
 permalink: /who_we_are/
 featured_image: '/images/welcome-stone.png'
+page-title: "Who We Are"
 ---
 
-{% for item in site.data.who_we_are.content%}
+
 <div class="container">
-        <div class="row">
-            <div class="col-sm-12 heading centered-text"><h1>{{ item.heading }}</h1></div>
-            <div class="content">
-                    <p class="text base-padding {{item.format}}">{{ item.text }}</p>
-            </div>
-        </div>  
-    {% endfor %}
+    <div class="row">
+        <div class="col-sm-12 heading centered-text"><h1>{{ site.data.who_we_are.heading }}</h1></div>
+        <div class="content">
+                <p class="text base-padding {{site.data.who_we_are.format}}">{{ site.data.who_we_are.text }}</p>
+        </div>
+    </div>  
 
     <div class="row divider-padding  no-padding-divider">
         <div class="col-xs-2 section-divider background-red divider-height">
@@ -20,9 +20,8 @@ featured_image: '/images/welcome-stone.png'
         <div class="col-xs-10 section-divider background-grey divider-height">
         </div>
     </div>
-</div>
 
-<div class="container">
+
     <div class="row">
         <div class="col-sm-12 heading centered-text"><h1>{{ site.data.who_we_are.the_team.heading }}</h1></div>
             <div class="the_team">
@@ -31,8 +30,7 @@ featured_image: '/images/welcome-stone.png'
     </div>
 
     {% for item in site.data.who_we_are.bios %}
-    <div class="container">
-        <div class="row is-flex">
+        <div class="row match-my-cols">
             {% if item.image-location == 'left' %}
                 <div class="col-xs-12 col-sm-4">
                     <div class="center-img">
@@ -60,25 +58,23 @@ featured_image: '/images/welcome-stone.png'
                 </div>        
             {% endif %}            
         </div>
-    </div>
     {% endfor %}
-
-    <div class="row divider-padding">
-        <div class="col-xs-2 section-divider background-red divider-height">
-        </div>
-        <div class="col-xs-10 section-divider background-grey divider-height">
+    <div class="margin-top-20">
+        <div class="row divider-padding ">
+            <div class="col-xs-2 section-divider background-red divider-height">
+            </div>
+            <div class="col-xs-10 section-divider background-grey divider-height">
+            </div>
         </div>
     </div>
 
     {% for item in site.data.who_we_are.evolution%}
-    <div class="container">
         <div class="row">
             <div class="col-sm-12 heading centered-text"><h1>{{ item.heading }}</h1></div>
             <div class="content base-padding">
                     <p class="text {{item.format}}">{{ item.text }}</p>
             </div>
         </div>  
-    </div>
     {% endfor %}
 
 </div>

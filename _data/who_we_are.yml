@@ -1,8 +1,6 @@
-content: 
-  -
-    heading: "Mission"
-    text: "To provide an array of novel legal solutions, excellent legal representation and exceptional customer services to our clients."
-    format: "centered-text"
+heading: "Mission"
+text: "To provide an array of novel legal solutions, excellent legal representation and exceptional customer services to our clients."
+format: "centered-text"
 
 evolution:
   -
